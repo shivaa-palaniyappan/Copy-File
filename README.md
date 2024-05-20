@@ -23,16 +23,14 @@ End the program.
 #Developed by: SHIVAA PALANIYAPPAN V
 #Register Number: 212223110050
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open("text1.txt", 'r') as fp:
+    msg=fp.read()
+with open("copy.txt", 'w') as fp1:
+    fp1.write(msg)
 
 ```
 ### OUTPUT:
-![329831705-6b92d7bc-4917-445d-815a-9296bdd18ab1](https://github.com/shivaa-palaniyappan/Copy-File/assets/146915611/4e75e82c-0038-4512-a641-d7def490a242)
+![329847030-c6ce7d10-b50f-444c-9098-dc7567b3a446](https://github.com/shivaa-palaniyappan/Copy-File/assets/146915611/2e113b07-3985-4fa2-a075-c963e25340da)
 
 
 
